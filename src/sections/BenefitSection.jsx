@@ -1,6 +1,7 @@
 import ClipPathTitle from "../components/ClipPathTitle.jsx";
 import {useGSAP} from "@gsap/react";
 import gsap from "gsap";
+import VideoPinSection from "../components/VideoPinSection.jsx";
 
 const BenefitSection = () => {
 
@@ -12,7 +13,6 @@ const BenefitSection = () => {
                 start: "top 60%",
                 end: "top top",
                 scrub: 1.5,
-                markers: true,
             },
         });
         revealTl.to(".benefit-section .first-title", {
@@ -83,6 +83,10 @@ const BenefitSection = () => {
                         <p>And much more ...</p>
                     </div>
                 </div>
+            </div>
+
+            <div className="relative overlay-box">
+                <VideoPinSection />
             </div>
 
         </section>
