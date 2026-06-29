@@ -193,7 +193,7 @@ body::-webkit-scrollbar {
     }
 
     .benefit-section {
-        @apply min-h-dvh bg-[#222123] overflow-hidden relative;
+        @apply min-h-dvh bg-[#222123] overflow-hidden relative md:pb-20;
 
         p {
             @apply text-milk font-paragraph text-center text-lg;
