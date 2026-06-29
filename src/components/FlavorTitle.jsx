@@ -18,7 +18,7 @@ const FlavorTitle = () => {
             ease: "power1.inOut",
             scrollTrigger: {
                 trigger: ".flavor-section",
-                start: "top 40%",
+                start: "top 30%",
             },
         });
 
@@ -27,7 +27,7 @@ const FlavorTitle = () => {
             clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
             scrollTrigger: {
                 trigger: ".flavor-section",
-                start: "top 20%",
+                start: "top 10%",
             }
         });
 
